@@ -16,3 +16,8 @@
 # true
 
 p "Enter one word"
+
+word = gets.chomp
+
+word == word.reverse
+
