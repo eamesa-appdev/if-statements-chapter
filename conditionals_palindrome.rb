@@ -17,7 +17,6 @@
 
 p "Enter one word"
 
-word = gets.chomp
+word = gets.chomp.downcase
 
 word == word.reverse
-
